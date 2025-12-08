@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tarjeta de perfil con efecto flip" />
+    <title>Tarjeta de Perfil - Maycol Quispe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Contenedor para el efecto flip -->
+    <div class="flip-container">
+        <div class="flip-card">
+            <!-- FRENTE de la tarjeta - MANTENIENDO EXACTAMENTE TU DISEÑO -->
+            <div class="card-front">
+                <div class="tarjeta-perfil">
+                    <!-- Imagen de perfil -->
+                    <img
+                        src="https://i.postimg.cc/wT5d4YhK/ft-1.jpg"
+                        alt="Foto de perfil de Maycol Quispe"
+                        class="perfil-imagen"
+                    />
+
+                    <!-- Información del usuario -->
+                    <h1 class="perfil-nombre">Maycol Robin Quispe Calani</h1>
+                    <p class="perfil-titulo">Desarrollador Frontend</p>
+                    <p class="perfil-titulo">Diseño Web II</p>
+                    <p class="perfil-descripcion">
+                        Apasionado por crear experiencias web modernas y accesibles.
+                        Especializado en HTML5, CSS3 y JavaScript.
+                    </p>
+
+                    <!-- Botón de acción -->
+                    <button class="btn-contactar">Contactar</button>
+                </div>
+            </div>
+
+            <!-- REVERSO de la tarjeta - Información adicional -->
+            <div class="card-back">
+                <div class="tarjeta-perfil">
+                    <h2 class="back-title">Información de Contacto</h2>
+                    
+                    <!-- Sección de contacto -->
+                    <div class="info-section">
+                        <h3><i class="fas fa-address-card"></i> Datos de Contacto</h3>
+                        <p class="contacto-item">
+                            <i class="fas fa-envelope"></i>
+                            <span class="contacto-texto">maycol.quispe@example.com</span>
+                        </p>
+                        <p class="contacto-item">
+                            <i class="fas fa-phone"></i>
+                            <span class="contacto-texto">+51 987 654 321</span>
+                        </p>
+                    </div>
+
+                    <!-- Sección de especialidades -->
+                    <div class="info-section">
+                        <h3><i class="fas fa-code"></i> Especialidades Técnicas</h3>
+                        <div class="especialidades">
+                            <div class="especialidad">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="especialidad">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="especialidad">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="especialidad">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="especialidad">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="especialidad">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sección de redes sociales -->
+                    <div class="info-section">
+                        <h3><i class="fas fa-share-alt"></i> Redes Sociales</h3>
+                        <div class="redes-sociales">
+                            <a href="#" class="social-btn linkedin">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="#" class="social-btn github">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="social-btn portfolio">
+                                <i class="fas fa-briefcase"></i> Portafolio
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Botón para volver -->
+                    <button class="btn-volver">Volver al Frente</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
